@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+virtual_environment/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+1_telemetry_events.json
+4_ground_truth_eval.json
+Mercedes-Benz Smart Workshop Flowchart.png

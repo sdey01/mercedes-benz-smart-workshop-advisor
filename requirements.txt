@@ -1,0 +1,10 @@
+langchain
+langgraph
+streamlit
+matplotlib
+langchain-openai
+pydantic
+networkx
+python-dotenv
+groq
+pyngrok

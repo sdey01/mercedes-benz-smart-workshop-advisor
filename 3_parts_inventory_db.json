@@ -1,0 +1,124 @@
+{
+  "warranty_rules": {
+    "standard_vehicle_warranty": {
+      "max_age_months": 48,
+      "max_mileage_km": 80000,
+      "applicable_subsystems": [
+        "Suspension & Chassis",
+        "48V Electrical System",
+        "Steering & Chassis",
+        "MBUX Infotainment",
+        "ADAS & Sensors",
+        "Wheels & TPMS",
+        "Pedestrian Acoustic Alert",
+        "Exhaust & Emissions",
+        "Braking System"
+      ]
+    },
+    "hv_powertrain_warranty": {
+      "max_age_months": 120,
+      "max_mileage_km": 250000,
+      "applicable_subsystems": ["High-Voltage Powertrain"]
+    }
+  },
+  "parts_bundles_by_dtc": {
+    "P33E200": {
+      "dtc_code": "P33E200",
+      "parts": [
+        {
+          "part_number": "A2935002000",
+          "description": "Auxiliary Electric Coolant Pump (HV Chiller)",
+          "unit_price_eur": 485.0,
+          "stock_status": "In Stock",
+          "lead_time_days": 0
+        },
+        {
+          "part_number": "A0009899302",
+          "description": "MB Coolant Ready Mix 325.6 (5L)",
+          "unit_price_eur": 42.5,
+          "stock_status": "In Stock",
+          "lead_time_days": 0
+        }
+      ],
+      "total_parts_cost_eur": 527.5,
+      "all_parts_in_stock": true
+    },
+    "C156F01": {
+      "dtc_code": "C156F01",
+      "parts": [
+        {
+          "part_number": "A2063201400",
+          "description": "Front Right AIRMATIC Suspension Strut Assembly (W206)",
+          "unit_price_eur": 1290.0,
+          "stock_status": "Backordered",
+          "lead_time_days": 9
+        },
+        {
+          "part_number": "A0993200158",
+          "description": "AIRMATIC Compressor Solid-State Relay",
+          "unit_price_eur": 38.0,
+          "stock_status": "In Stock",
+          "lead_time_days": 0
+        }
+      ],
+      "total_parts_cost_eur": 1328.0,
+      "all_parts_in_stock": false
+    },
+    "P0A9400": {
+      "dtc_code": "P0A9400",
+      "parts": [
+        {
+          "part_number": "A2569068800",
+          "description": "48V/12V DC/DC Converter Control Unit",
+          "unit_price_eur": 940.0,
+          "stock_status": "In Stock",
+          "lead_time_days": 0
+        },
+        {
+          "part_number": "A0009052211",
+          "description": "48V Bus Hall-Effect Current Sensor",
+          "unit_price_eur": 115.0,
+          "stock_status": "In Stock",
+          "lead_time_days": 0
+        }
+      ],
+      "total_parts_cost_eur": 1055.0,
+      "all_parts_in_stock": true
+    },
+    "P1C8A00": {
+      "dtc_code": "P1C8A00",
+      "parts": [
+        {
+          "part_number": "A2902701500",
+          "description": "AMG Rear EDU 2-Speed Hydraulic Shift Actuator Manifold",
+          "unit_price_eur": 1650.0,
+          "stock_status": "In Stock",
+          "lead_time_days": 0
+        },
+        {
+          "part_number": "A0029890403",
+          "description": "AMG Hypoid Rear EDU Gear Oil (1L)",
+          "unit_price_eur": 64.0,
+          "stock_status": "In Stock",
+          "lead_time_days": 0
+        }
+      ],
+      "total_parts_cost_eur": 1714.0,
+      "all_parts_in_stock": true
+    },
+    "C118B29": {
+      "dtc_code": "C118B29",
+      "parts": [
+        {
+          "part_number": "A2974601800",
+          "description": "Rear-Axle Steering (RAS) 10-Degree Spindle Actuator Assembly",
+          "unit_price_eur": 2180.0,
+          "stock_status": "Backordered",
+          "lead_time_days": 12
+        }
+      ],
+      "total_parts_cost_eur": 2180.0,
+      "all_parts_in_stock": false
+    }
+  }
+}

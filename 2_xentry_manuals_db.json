@@ -1,0 +1,82 @@
+{
+  "P33E200": {
+    "bulletin_id": "WIS-AR27.19-P-0150V",
+    "title": "EQS/EQE HV Battery Chiller Coolant Circuit Pressure Loss & Pump Replacement",
+    "fault_type": "Hardware_Repair",
+    "labor_hours": 3.5,
+    "required_part_numbers": ["A2935002000", "A0009899302"],
+    "repair_steps": "1. Perform XENTRY guided high-voltage intrinsic safety isolation. 2. Pressure-test low-temp chiller loop at 1.4 bar for 15 min. 3. Replace auxiliary electric coolant pump (A2935002000) and vacuum-bleed circuit with MB Coolant 325.6 (A0009899302)."
+  },
+  "C156F01": {
+    "bulletin_id": "WIS-AR32.22-P-1044W",
+    "title": "W206 AIRMATIC Front Axle Lowering & Compressor Thermal Protection Fault",
+    "fault_type": "Hardware_Repair",
+    "labor_hours": 4.0,
+    "required_part_numbers": ["A2063201400", "A0993200158"],
+    "repair_steps": "1. Confirm micro-fissure in front right elastomer air bellow using leak-detector spray. 2. Replace front right AIRMATIC strut assembly (A2063201400) and preventive-replace compressor solid-state relay (A0993200158). 3. Run XENTRY pneumatic level calibration."
+  },
+  "P0A9400": {
+    "bulletin_id": "LI54.10-P-076412",
+    "title": "W223 S-Class 48V ISG DC/DC Converter Voltage Regulation Fault",
+    "fault_type": "Hardware_Repair",
+    "labor_hours": 2.5,
+    "required_part_numbers": ["A2569068800", "A0009052211"],
+    "repair_steps": "1. De-energize 48V on-board network via XENTRY. 2. Replace 48V/12V DC/DC converter control unit (A2569068800) and 48V bus Hall-effect current sensor (A0009052211). 3. Flash N129/1 software and clear fault memory."
+  },
+  "P1C8A00": {
+    "bulletin_id": "WIS-AR28.10-P-0912A",
+    "title": "AMG E Performance Rear EDU 2-Speed Shift Actuator Hydraulic Pressure Fault",
+    "fault_type": "Hardware_Repair",
+    "labor_hours": 5.0,
+    "required_part_numbers": ["A2902701500", "A0029890403"],
+    "repair_steps": "1. Drain Rear Axle Electric Drive Unit (N145) gear oil. 2. Replace Rear EDU hydraulic shift actuator manifold (A2902701500), refill with AMG Hypoid Gear Oil (A0029890403), and run XENTRY dog-clutch kiss-point adaptation."
+  },
+  "C118B29": {
+    "bulletin_id": "LI46.80-P-077890",
+    "title": "EQE/EQS Rear-Axle Steering (RAS) Rotor Position Sensor Signal Fault",
+    "fault_type": "Hardware_Repair",
+    "labor_hours": 4.5,
+    "required_part_numbers": ["A2974601800"],
+    "repair_steps": "1. Lock rear steering rack in centered service position. 2. Replace complete 10-degree Rear-Axle Steering spindle actuator assembly (A2974601800). 3. Perform 4-wheel optical alignment and execute zero-angle sensor calibration in N68/4."
+  },
+  "U111300": {
+    "bulletin_id": "LI82.85-P-079088",
+    "title": "MBUX NTG7 Wireless Apple CarPlay Connectivity Interruptions",
+    "fault_type": "Software_Update",
+    "labor_hours": 0.8,
+    "required_part_numbers": [],
+    "repair_steps": "Do NOT replace head unit hardware. 1. Update MBUX head unit A26/17 software to latest FUP release via XENTRY Diagnosis. 2. Verify customer iPhone iOS version and remove conflicting VPN profiles."
+  },
+  "B210D13": {
+    "bulletin_id": "LI82.85-P-078156",
+    "title": "MBUX Transparent Hood Feature Inoperative in Off-Road Display (FUP5 E504.3)",
+    "fault_type": "Software_Update",
+    "labor_hours": 0.6,
+    "required_part_numbers": [],
+    "repair_steps": "Do NOT replace MBUX head unit or 360-degree camera hardware. Apply the FUP5 parameterization hotfix patch to control unit A26/17 via XENTRY Flash."
+  },
+  "B1F4500": {
+    "bulletin_id": "LI82.85-P-075094",
+    "title": "Traffic Light View Intermittently Inoperable After MBUX OTA Update",
+    "fault_type": "Software_Update",
+    "labor_hours": 0.7,
+    "required_part_numbers": [],
+    "repair_steps": "Do NOT replace camera or central display hardware. Update MBUX multimedia control unit A26/17 to software version E329.5 or newer via XENTRY Diagnosis."
+  },
+  "P26E400": {
+    "bulletin_id": "LI08.30-P-081004",
+    "title": "W465 G 580 EQ Technology - G-TURN Aborted Due to Inverter Thermal Model",
+    "fault_type": "Software_Update",
+    "labor_hours": 1.0,
+    "required_part_numbers": [],
+    "repair_steps": "Do NOT replace quad-motor inverters or cooling pumps. Flash N127 Drivetrain Control Unit to firmware v1.18.4 via XENTRY and reset thermal adaptation counters."
+  },
+  "B15A100": {
+    "bulletin_id": "LI82.85-P-080415",
+    "title": "MBUX NTG7 'Hey Mercedes' Voice Assistant Wake-Word Freeze After Profile Switch",
+    "fault_type": "Software_Update",
+    "labor_hours": 0.5,
+    "required_part_numbers": [],
+    "repair_steps": "Do NOT replace microphone array or head unit. Clear MBUX voice recognition user cache partition via XENTRY Service Routines and apply SCN coding patch."
+  }
+}
